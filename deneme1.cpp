@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-/*deneme*/
+/*dedddneme*/
   int sayi =1;
   while (sayi <100)
  {
