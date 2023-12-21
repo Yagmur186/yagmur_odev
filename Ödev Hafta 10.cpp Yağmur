@@ -1,0 +1,62 @@
+TASALAYICI
+#include <iostream>
+#include <string>
+using namespace std;
+class Sunucu{
+public:
+string adsoyad;
+int sehir;
+int toplampuan;
+string yarismaci(int sayi_3)
+int yarismaci1=adsoyad,sehir;
+int yarismaci2=adsoyad,sehir;
+int yarismaci3=adsoyad,sehir;
+
+Sunucu(string xadsoyad, int ysehir, int ztoplampuan){
+ adsoyad = xadsoyad;
+ sehir = ysehir;
+ toplampuan = ztoplampuan;
+
+}
+};
+int main(){
+    Sunucu sunucum;
+    sunucum.sunucuadsoyad="Ali";
+    sunucum.sunucusehri="Niğde";
+    sunucum.sunucutoplampuan="25";
+cout << sunucum.sunucuadsoyad << ",adsoyad: " << sunucum.sunucusehir << ",şehri: " << sunucum.sunucutoplampuan << ",toplampuanı:";
+
+return 0;
+}
+KODLAYICI
+#include <iostream>
+#include <string>
+using namespace std;
+class Pazarlik{
+public:
+string adsoyad;
+int eskifiyat;
+int yenifiyat;
+void indirim (int miktar) {
+    fiyat=fiyat-miktar;
+    cout<<"Evet indirim yapildi, yeni fiyati:"<<fiyat<<endl;
+}
+void fiyatarttir(int miktar){
+    fiyat=fiyat+miktar;
+    cout<<"Evin fiyati azaltildi, yeni fiyati:"<<fiyat;
+
+Pazarlik(string xadsoyad, int yeskifiyat, int zyenifiyat, int windirim){
+ adsoyad = xadsoyad;
+ eskifiyat = yeskifiyat;
+ yenifiyat= zyenifiyat;
+ indirim= windirim;
+
+}
+};
+int main(){
+Pazarlık BenimPazarlık, KarşiPazarlik;
+ pl.eskifiyat(78);
+ pl.goster();
+ pl.yenifiyat(72);
+ return 0;
+}
